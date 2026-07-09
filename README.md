@@ -1,4 +1,4 @@
-# Agentic Deep Research Pipeline
+# Agentic Deep Research Console Pipeline
 
 An autonomous, multi-agent Retrieval-Augmented Generation (RAG) system designed to deeply research, synthesize, and cite literature across a 700+ paper corpus of recent (2024-2026) arXiv publications on LLM agents. 
 
