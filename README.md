@@ -73,3 +73,6 @@ streamlit run src/app.py
 ## Engineering Trade-offs & Notes
 * **Model Selection:** The default backend utilizes `gemini-flash-lite-latest`. While larger models offer deeper multi-step reasoning, the Lite architecture was deliberately chosen for its massive throughput capabilities, preventing HTTP 429 quota exhaustion during the heavy iterative loops required by the Reflector agent.
 * **Idempotency:** The pipeline safely caches the ChromaDB index and evaluation states. If execution is interrupted, running the master script again will resume exactly where it left off without wasting API calls or bandwidth.
+
+
+Status: To be upgraded
